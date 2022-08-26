@@ -1,7 +1,7 @@
 name: amix
 description: Amix is a package for creating Servers.
 version: 0.0.1
-# homepage: https://www.example.com
+homepage: https://github.com/peter-parker-a/amix/
 
 environment:
   sdk: '>=2.17.6 <3.0.0'
