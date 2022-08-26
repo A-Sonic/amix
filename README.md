@@ -11,7 +11,7 @@ Add the following to your pubspec.yaml file.
 
 ```yaml
 dependencies:
-  amix: ^0.0.1
+  amix: ^0.0.11
 ```
 
 Import the package.
@@ -28,6 +28,8 @@ import 'dart:io';
 import 'package:amix/amix.dart';
 
 void main() async {
+  serverAddress = "127.0.0.1";
+  serverPort=8080;
   AmixSetUp exampleServer = AmixSetUp(serverRoute: AmixRouteExample());
   await exampleServer.startMultiCoreServer(isolateCount: 10);
 }
