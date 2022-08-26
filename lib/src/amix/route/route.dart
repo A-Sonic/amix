@@ -52,6 +52,10 @@ abstract class AmixRoute {
 
   /// if Page Was Not Found what to do?
   AmixResponse onPageNotFound();
+
+  /// if you want to Do Something every time a
+  /// request comes inside Server we have onEveryCall for you.
+  void onEveryCall();
 }
 
 ///[Route]

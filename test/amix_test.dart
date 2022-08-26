@@ -10,6 +10,7 @@ void main() async {
 }
 
 class ArmanRoute extends AmixRoute {
+  int exampleInt = 314;
   @override
   void setEntryPoints() {
     routeController.createRoute(
@@ -52,5 +53,10 @@ class ArmanRoute extends AmixRoute {
         await response.close();
       },
     );
+  }
+
+  @override
+  void onEveryCall() {
+    print(exampleInt);
   }
 }

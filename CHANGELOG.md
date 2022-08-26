@@ -5,3 +5,7 @@
 ## 0.0.11
 
 - remove bugs
+
+## 0.0.12
+
+- add feature on Every Call for Package

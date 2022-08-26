@@ -51,4 +51,11 @@ class AmixRouteExample extends AmixRoute {
       },
     );
   }
+
+  @override
+  void onEveryCall() {
+    print(
+      "on Every Call to server this function will be called",
+    );
+  }
 }

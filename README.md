@@ -1,4 +1,4 @@
-Amix is a Package for creating Servers.
+a Package for creating Servers.
 
 ## Features
 
@@ -11,7 +11,7 @@ Add the following to your pubspec.yaml file.
 
 ```yaml
 dependencies:
-  amix: ^0.0.11
+  amix: ^0.0.12
 ```
 
 Import the package.
