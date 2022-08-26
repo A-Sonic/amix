@@ -3,10 +3,10 @@ import 'package:amix/src/amix/route/route.dart';
 import 'package:amix/src/amix/setup/controller.dart';
 
 ///Server Address
-final String serverAddress = "127.0.0.1";
+String serverAddress = "127.0.0.1";
 
 ///Server Port
-final int serverPort = 9090;
+int serverPort = 9090;
 
 ///`[AmixSetUp]`
 ///

@@ -3,8 +3,10 @@ import 'dart:io';
 import 'package:amix/amix.dart';
 
 void main() async {
+  serverAddress = "127.0.0.1";
+  serverPort = 8080;
   AmixSetUp test = AmixSetUp(serverRoute: ArmanRoute());
-  await test.startMultiCoreServer(isolateCount: 2000);
+  await test.startMultiCoreServer(isolateCount: 2);
 }
 
 class ArmanRoute extends AmixRoute {
