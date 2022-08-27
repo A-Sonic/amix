@@ -58,7 +58,7 @@ class MultiCoreController {
             } else {
               //start Function From path and put the result
               //inside Amix Response
-              result = pathFunction(event);
+              result = await pathFunction(event);
             }
             //send back the AmixResponse for Our OutSide Port
             outSidePort?.send(result);

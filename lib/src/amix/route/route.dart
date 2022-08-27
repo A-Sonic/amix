@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:amix/src/amix/server/requests/request.dart';
 import 'package:amix/src/amix/server/responses/response.dart';
 
@@ -74,7 +76,7 @@ class Route {
   ///for every route you have we are going to add a =>
   ///String route name and Funtion of that route
   ///
-  final Map<String, AmixResponse Function(AmixRequest)> _routes = {};
+  final Map<String, FutureOr<AmixResponse> Function(AmixRequest)> _routes = {};
 
   ///this Function makes a new route for your project.
   ///
@@ -99,11 +101,12 @@ class Route {
   ///```
   void createRoute(
     String path, {
-    required AmixResponse Function(AmixRequest) onCall,
+    required FutureOr<AmixResponse> Function(AmixRequest) onCall,
   }) {
     _routes[path] = onCall;
   }
 
   ///give you a Map of your Routes.
-  Map<String, AmixResponse Function(AmixRequest)> get route => _routes;
+  Map<String, FutureOr<AmixResponse> Function(AmixRequest)> get route =>
+      _routes;
 }

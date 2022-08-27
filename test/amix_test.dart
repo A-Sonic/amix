@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:amix/amix.dart';
 
 void main() async {
@@ -15,7 +14,7 @@ class ArmanRoute extends AmixRoute {
   void setEntryPoints() {
     routeController.createRoute(
       "/test",
-      onCall: (AmixRequest request) {
+      onCall: (AmixRequest request) async {
         return AmixResponse(
           response: (response) async {
             try {
