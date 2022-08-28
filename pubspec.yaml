@@ -1,6 +1,6 @@
 name: amix
-description: a package for creating Servers.
-version: 0.0.14
+description: a package for creating Servers.no need to think about multithreading inside your server this package will handle it for you.
+version: 0.0.15
 homepage: https://github.com/peter-parker-a/amix/
 
 environment:

@@ -1,6 +1,6 @@
 a Package for creating Servers.
 with this package you can easily create your servers.
-no need to think about multithreading inside your server this package will handle this for you
+no need to think about multithreading inside your server this package will handle it for you
 
 ## Features
 
@@ -13,7 +13,7 @@ Add the following to your pubspec.yaml file.
 
 ```yaml
 dependencies:
-  amix: ^0.0.14
+  amix: ^0.0.15
 ```
 
 Import the package.
@@ -85,5 +85,6 @@ its so Easy to work with amix_database package.
 
 here is the package Url and git Repository:
 
-[Package](https://pub.dev/packages/amix_database/) ----
-[Repository](https://github.com/peter-parker-a/amix_database)
+[Package Url](https://pub.dev/packages/amix_database/)
+
+[Repository Url](https://github.com/peter-parker-a/amix_database)

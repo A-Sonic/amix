@@ -17,3 +17,7 @@
 ## 0.0.14
 
 - add DataBase to README.md
+
+## 0.0.15
+
+- change package description
