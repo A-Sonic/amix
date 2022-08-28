@@ -85,5 +85,5 @@ its so Easy to work with amix_database package.
 
 here is the package Url and git Repository:
 
-[Package](https://pub.dev/packages/amix_database/)
+[Package](https://pub.dev/packages/amix_database/) ----
 [Repository](https://github.com/peter-parker-a/amix_database)
