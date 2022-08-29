@@ -49,7 +49,7 @@ class AmixRouteExample extends AmixRoute {
   }
 
   @override
-  void onEveryCall() {
+  void onEveryCall(request) {
     // on Every Request that comes inside your server this function will be called
     print("on Every Call"); //on Every Call
   }

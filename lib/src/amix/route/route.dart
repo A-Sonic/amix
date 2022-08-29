@@ -57,7 +57,7 @@ abstract class AmixRoute {
 
   /// if you want to Do Something every time a
   /// request comes inside Server we have onEveryCall for you.
-  void onEveryCall();
+  void onEveryCall(AmixRequest request);
 }
 
 ///[Route]

@@ -46,7 +46,7 @@ class MultiCoreController {
             //create the Result
             AmixResponse result;
             //call onEveryCall
-            event.route.onEveryCall();
+            event.route.onEveryCall(event);
             //find the Function of Path
             var pathFunction =
                 event.route.routeController.route[event.uri.path];

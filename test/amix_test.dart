@@ -55,7 +55,7 @@ class ArmanRoute extends AmixRoute {
   }
 
   @override
-  void onEveryCall() {
+  void onEveryCall(req) {
     print(exampleInt);
   }
 }
