@@ -21,3 +21,7 @@
 ## 0.0.15
 
 - change package description
+
+## 0.0.16
+
+- add request var to onEveryCall feature

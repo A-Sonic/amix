@@ -13,7 +13,7 @@ Add the following to your pubspec.yaml file.
 
 ```yaml
 dependencies:
-  amix: ^0.0.15
+  amix: ^0.0.16
 ```
 
 Import the package.
@@ -68,7 +68,7 @@ class AmixRouteExample extends AmixRoute {
     );
   }
   @override
-  void onEveryCall(){ // on Every Request that comes inside your server this function will be called
+  void onEveryCall(req){ // on Every Request that comes inside your server this function will be called
     print("on Every Call"); //on Every Call
   }
 }
@@ -83,8 +83,4 @@ amix Team is accepted "amix_database".
 
 its so Easy to work with amix_database package.
 
-here is the package Url and git Repository:
-
-[Package Url](https://pub.dev/packages/amix_database/)
-
-[Repository Url](https://github.com/peter-parker-a/amix_database)
+here is the [Package Url](https://pub.dev/packages/amix_database/) and git [Repository Url](https://github.com/peter-parker-a/amix_database):
